@@ -1,0 +1,43 @@
+
+.trad-divider-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+.trad-divider {
+    width: 100%;
+    height: 100px;
+    transition: all 0.3s ease;
+}
+.trad-rectangle {
+    width: 100%; 
+    height: auto; 
+}
+.trad-triangle {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.trad-curve {
+    width: 100%; /* Ensure the divider spans the full width */
+    border-top-left-radius: 50% 100px; /* Creates a curve only on the top */
+    border-top-right-radius: 50% 100px; /* Creates a curve only on the top */
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: auto; /* Height will be defined dynamically or based on the height setting */
+}
+/* Container to control overflow */
+.trad-divider-wrapper {
+    overflow: hidden; /* Ensure overflow is hidden on the container */
+}
+
+/* Animation on the divider */
+.trad-divider-animate {
+    animation: trad-divider-animation 8s infinite cubic-bezier(0.3, 0.3, 0.3, 0.3); /* Use cubic-bezier for smoother easing */
+}
+
+@keyframes trad-divider-animation {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(50px); } /* Move fully to the right */
+    50% { transform: translateX(0px); } /* Smoothly move back to the original position */
+    75% { transform: translateX(-50px); } 
+    100% { transform: translateX(0px); } 
+}

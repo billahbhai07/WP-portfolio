@@ -1,0 +1,23 @@
+.trad-business-hours 
+.trad-business-hour {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 0 solid transparent
+}
+
+.trad-business-hours 
+.trad-business-hour:last-child {
+	border-bottom: none !important
+}
+
+.trad-business-day
+.trad-business-hours, 
+.trad-business-hour 
+.trad-business-time {
+	display: table-cell;
+	width: 50%;
+	vertical-align: middle;
+	
+}

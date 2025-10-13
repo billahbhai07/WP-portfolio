@@ -1,0 +1,21 @@
+/* =====================================icon button
+====================================================================// */
+.trad-custom-button{
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    border: 1px solid #BEB9B9;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trad-custom-button:hover i, .trad-custom-button:hover svg{
+    transition: all 0.3s ease-in-out;
+}
+.trad-custom-button i, .trad-custom-button svg{
+    transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,68 @@
+.trad-notice-success {
+    border-left-color: #2e3194 !important;
+}
+
+button.button.button-info.trad-dismiss {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i.notice-icon.dashicons-before.dashicons-smiley {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: -5px;
+}
+
+
+.trad-hero {
+    padding: 40px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.trad-info-hello {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.trad-info-desc div {
+    margin-bottom: 10px;
+}
+
+.trad-info-desc {
+    font-size: 16px;
+    line-height: 1.3;
+    margin: 10px 0 20px;
+}
+
+.trad-info-actions {
+    display: flex;
+    align-items: center;
+}
+
+.trad-info-actions a.button {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.trad-info-actions .button i {
+    margin-left: 15px;
+}
+
+.trad-info-desc div.trad-offer {
+    color: #a30000;
+    font-weight: 700;
+}
+
+.trad-upgarde-btn-message {
+    background-color: #f51f3d !important;
+    color: #fff;
+    border-color: #f51f3d !important;
+}
+
+.trad-notice {
+    margin-right: 0px !important;
+    margin-left: 3px !important;
+}

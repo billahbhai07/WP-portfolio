@@ -1,0 +1,87 @@
+.trad-single-testimonial-slider{
+    background-color: #e2e2e2;
+    padding: 20px;
+}
+.trad-testimonial-thumb {
+    margin-bottom: 5px;
+    border-radius: 50%;
+}
+.trad-single-testimonial
+.trad-testimonial-style--default 
+.trad-testimonial-text p {
+    color: #424242; 
+    font-size: 18px; 
+    line-height: 32px; 
+    font-style: italic;
+}
+.trad-single-testimonial
+.trad-testimonial-style--default 
+.trad-testimonial-thumb {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.trad-single-testimonial
+.trad-testimonial-style--default .trad-testimonial-thumb img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    border-radius: 50% !important;
+}
+.trad-single-testimonial.trad-testimonial-style--default .trad-testimonial-author {
+    margin: 20px 0;
+}
+.trad-single-testimonial.trad-testimonial-style--default .trad-author-name {
+    color: #151617;
+    font-weight: 700;
+}
+.trad-single-testimonial.trad-testimonial-style--default .trad-testimonial-rating {
+    font-size: 12px; 
+    margin-bottom: 15px;
+}
+.trad-single-testimonial.trad-testimonial-style--default .trad-author-name span {
+    color: #424242;
+    font-size: 13px;
+    font-weight: 400;
+}
+.trad-single-testimonial.trad-testimonial-style--default .trad-author-designation {
+    color: #555555;
+    font-size: 14px;
+}
+.trad-single-testimonial.trad-testimonial-style--default .trad-author-name span:before {
+    content: "/ ";
+    color: #232323;
+}
+
+.trad-single-testimonial .trad-author-meta-wrap {
+    display: flex;
+    align-items: center;
+}
+.trad-single-testimonial .trad-author-meta-wrap .trad-author-meta-thumb .trad-testimonial-thumb {
+    margin-bottom: 0px;
+}
+.trad-single-testimonial .trad-author-meta-wrap .trad-author-meta-thumb {
+    margin-right: 20px;
+}
+.trad-author-location {
+    display: block;
+}
+.trad-testimonial-rating>.elementor-icon {
+    display: flex;
+    justify-content: center; 
+}
+
+.trad-testimonial-star {
+    font-size: 20px; 
+    color: #f39c12; 
+}
+
+.trad-testimonial-text> .elementor-icon{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.trad-single-testimonial .trad-testimonial-text p {
+    font-size: 18px;
+}

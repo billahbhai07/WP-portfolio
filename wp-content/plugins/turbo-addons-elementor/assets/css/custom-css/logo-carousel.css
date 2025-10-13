@@ -1,0 +1,52 @@
+.trad-logo-carousel .owl-carousel{
+    position: relative;
+}
+.trad-logo-carousel {
+    width: 100%;
+    margin: 0 auto 0px;
+    text-align: center;
+}
+.trad-logo-carousel .owl-carousel .owl-item {
+    padding: 0 30px;
+}
+.trad-logo-carousel .owl-nav button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    height: 30px;
+    margin: auto 0;
+}
+.trad-logo-carousel .owl-nav button.owl-next{
+    right: 0;
+}
+.trad-logo-carousel .owl-nav button.owl-prev{
+    left: 0;
+}
+.trad-logo-carousel>.active{
+    background-color: red;
+
+}
+
+.trad-logo-carousel .owl-dots {
+    text-align: center;
+}
+.trad-logo-carousel .owl-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    transition: background 0.3s ease;
+}
+.trad-logo-carousel .owl-nav button {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border-radius: 50%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    overflow: hidden;
+}

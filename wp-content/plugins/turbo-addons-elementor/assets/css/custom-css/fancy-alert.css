@@ -1,0 +1,47 @@
+.trad-fancy-alert-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.trad-fancy-alert-content {
+    display: flex;
+    align-items: center;
+}
+
+.trad-fancy-alert-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.trad-fancy-alert-text {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.trad-fancy-alert-description {
+    font-size: 14px;
+    color: inherit;
+}
+
+.trad-fancy-alert-close-button {
+    font-size: 18px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.custom-icon-wrapper {
+    display: inline-block;
+}
+
+.trad-fancy-alert-description {
+    width: 100%;
+}
